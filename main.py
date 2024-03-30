@@ -1,6 +1,7 @@
 import os
 import openai
 from dotenv import load_dotenv
+from openai import OpenAI
 
 from sentiment_analysis import *
 from transcription import *
