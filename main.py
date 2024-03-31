@@ -1,6 +1,8 @@
 import os
 import openai
 from dotenv import load_dotenv
+openai.api_key = 'f5b0b266b8b64986b03c4a393d303492'
+os.environ['OPENAI_API_KEY'] = 'f5b0b266b8b64986b03c4a393d303492'
 
 from sentiment_analysis import *
 from transcription import *
