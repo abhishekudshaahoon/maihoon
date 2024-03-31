@@ -1,8 +1,8 @@
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'f5b0b266b8b64986b03c4a393d303492'
 import openai
 from dotenv import load_dotenv
-openai.api_key = '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'
+openai.api_key = 'f5b0b266b8b64986b03c4a393d303492'
 
 
 from sentiment_analysis import *
@@ -11,7 +11,7 @@ from save_as_docx import *
 
 load_dotenv()
 
-openai.api_key = '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'
+openai.api_key = 'f5b0b266b8b64986b03c4a393d303492'
 
 def meeting_minutes(transcription):
     abstract_summary = abstract_summary_extraction(transcription)
