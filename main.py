@@ -1,5 +1,5 @@
 import os
-import openai==0.28
+import openai
 from dotenv import load_dotenv
 openai.api_key = 'f5b0b266b8b64986b03c4a393d303492'
 
